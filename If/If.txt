@@ -1,0 +1,73 @@
+1.	Escreva um algoritmo para ler um valor e escrever se é positivo ou negativo. Considere o valor zero como positivo.
+
+2.	Escreva um algoritmo para ler um valor numérico inteiro positivo ou negativo e apresentar o valor lido como sendo um valor positivo, ou seja, se o valor lido for menor ou igual a zero, ele deve ser multiplicado por -1.
+
+
+3.	Escreva um algoritmo para ler as notas das duas avaliações de um aluno no semestre, calcular e escrever a média semestral e a seguinte mensagem: ‘PARABÉNS! Você foi aprovado’ somente se o aluno foi aprovado (considere 6.0 a nota mínima para aprovação). 
+
+4.	Acrescente ao exercício acima a mensagem ‘Você foi REPROVADO! Estude mais’ caso a média calculada seja menor que 6,0.
+
+5.	Escreva um algoritmo para ler as notas das duas avaliações de um aluno no semestre, calcular e escrever a média semestral. Se a média for maior que 6.0 imprimir a mensagem “APROVADO”. Se a média for menor que 6.0 e maior que 3.0, imprimir a mensagem “EXAME”, se a média for menor que 3.0 imprimir a mensagem “REPROVADO”.
+
+6.	Escreva um algoritmo para ler 2 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+7.	Ler um valor numérico que esteja na faixa de valores de 1 até 9. O programa deve apresentar a mensagem “O valor está na faixa permitida”, caso o valor informado esteja entre 1 e 9. Se o valor estiver fora dessa faixa, o programa deve apresentar a mensagem “O valor está fora da faixa permitida”.
+
+8.	Escreva um algoritmo para ler o ano de nascimento de uma pessoa e escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que ela nasceu). 
+
+9.	As maçãs custam R$ 0,30 se forem compradas menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze.  Escreva um algoritmo que leia o número de maçãs compradas, calcule e escreva o valor total da compra.
+
+10.	Escreva um algoritmo para ler 2 valores (considere que não serão lidos valores iguais) e escreve-los em ordem crescente.
+
+11.	Escreva um algoritmo que verifique a validade de uma senha fornecida pelo usuário. A senha válida é o número 1234. Deve ser impresso as seguintes mensagens: 
+
+ACESSO PERMITIDO caso a senha seja válida. 
+ACESSO NEGADO  caso a senha seja inválida.
+
+12.	Tendo como entrada a altura (h) e o sexo (codificado da seguinte forma: 1:feminino  2:masculino) de uma pessoa, construa um algoritmo que calcule e imprima seu peso ideal, utilizando as seguintes fórmulas: 
+
+
+para homens:   (72.7 * h)-58 
+para mulheres:  (62.1* h)-44.7 
+
+13.	Escreva um algoritmo para ler um número inteiro (considere que serão lidos apenas valores positivos e inteiros) e escrever se é par ou ímpar.
+
+14.	Faça um algoritmo para ler dois números e imprimir o maior e o menor número lido, acompanhados da mensagem Menor ou Maior, conforme o caso. Se iguais, imprimir os dois números acompanhados da mensagem São iguais.
+
+15.	Ler dois números inteiros.  Se forem iguais, imprimir a mensagem ‘São iguais’ e terminar o programa. Se forem diferentes, e o primeiro deles for par, ler um terceiro número, imprimir o maior valor existente entre os três e terminar; todavia, se o primeiro for ímpar, ler mais dois números e imprimir o maior entre os dois primeiros e o maior valor existente entre estes dois últimos, mas de modo que não apareçam na tela em ordem decrescente.
+
+16.	Fazer um algoritmo para ler 3 números quaisquer e imprimir o maior deles. Se iguais, imprimir qualquer um.
+
+17.	Uma loja de eletrodomésticos estabeleceu as seguintes modalidades de pagamento para a venda de suas mercadorias:
+
+À vista ................................ desconto de 2,5% sobre o preço de tabela;
+De 2 até 5 vezes ................ preço de tabela, sem desconto ou acréscimo;
+De 6 até 10 vezes .............. juros de 6% sobre o preço de tabela;
+De 11 até 15 vezes ............ juros de 13% sobre o preço de tabela.
+     
+Exemplo: 	preço de tabela = R$ 100,00, para pagamento em 8 vezes;
+                      	preço total = 100,00 + 6,00 (6% de 100,00) = 106,00;
+                      	cada parcela = 106,00 / 8 = R$ 13,25.
+
+     O programa deve ler o preço de tabela e o número de vezes em que o pagamento será feito, e calcular o valor de cada parcela e o preço total da compra. 
+     Exibir, na tela, como segue:
+
+PREÇO DE TABELA: R$ XXXXXXXXX
+NUM. DE VEZES: XX
+VALOR DE CADA PARCELA: R$ XXXXXXXXX
+PREÇO TOTAL: R$ XXXXXXXXX
+
+18.	Faça um programa que leia idade e peso de um atleta e imprima a sua categoria, de acordo com a seguinte tabela:
+
+Idade	Peso	Categoria
+até 12 anos	-	Infantil
+13 a 16 anos	até 40 kg	Juvenil leve
+	acima de 40 kg	Juvenil pesado
+17 a 24 anos	até 45 kg	Senior leve
+	de 45,001 a 60 kg	Senior médio
+	acima de 60 kg	Senior pesado
+acima de 24 anos	-	Veterano
+
+
+
+

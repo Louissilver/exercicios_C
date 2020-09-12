@@ -1,0 +1,17 @@
+Exercícios de switch..case:
+
+1 - Escreva um algoritmo que construa um menu com três funções: (I) Inclusão, (A) Alteração e (T) Término e mostre para o usuário a opção escolhida.
+
+
+2 - O programa recebe um caracter e imprimi por extenso o estado civil.
+C – Casado(a)
+S- Soteiro(a)
+D – Divorciado(a)
+V- Viúvo(a)
+
+
+3 - Faça um algoritmo que determina o preço com desconto para entradas de cinema. Estudantes recebem 50% de desconto, aposentados, 30%. Os demais clientes pagam o ingresso completo.
+
+Categorias: 	Estudante: E ou e
+		Aposentados: A ou a
+		Normal: N ou n

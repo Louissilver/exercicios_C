@@ -1,0 +1,52 @@
+Exercícios de scanf:
+
+1 - Fazer um programa que recebe 2 variáveis inteiras e deve fazer a média aritmética. Imprimir o valor da média.
+
+2 – Fazer um programa que recebe 2 variáveis do tipo float e as seguintes operações: soma, subtração, multiplicação, divisão e raiz quadrada de cada uma das variáveis. Retornar o valor de cada operação.
+
+
+Exercícios de if:
+
+3 - Escreva um algoritmo para ler uma temperatura em graus Fahrenheit, calcular e escrever o valor correspondente em graus Celsius.
+                                             C          F - 32
+                                           -----  = ---------
+                                              5              9
+[Exemplo de dados de entrada] 
+	302 (temperatura em Fahrenheit)
+[Saída para os dados de entrada acima]
+	150 (temperatura em Celsius)
+
+4 - Escreva um algoritmo para ler uma temperatura em graus Celsius, calcular e escrever o valor correspondente em graus Fahrenheit.
+
+[Exemplo de dados de entrada] 
+	150 (temperatura em Celsius)
+[Saída para os dados de entrada acima]
+	302 (temperatura em Fahrenheit)
+
+5 - Escreva um algoritmo para ler o número de eleitores de um município, o número de votos brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total de eleitores.
+
+[Exemplo de dados de entrada] 
+	200 (quantidade de eleitores)
+	10 (quantidade de votos brancos)
+	20 (quantidade de votos nulos)
+	160 (quantidade de votos válidos)
+[Saída para os dados de entrada acima]
+	5 (percentual de votos brancos)
+	10 (percentual de votos nulos)
+	80 (percentual de votos válidos)
+ 
+
+6 - A turma C é composta de 60 alunos, e a turma D de 20 alunos. Escreva um algoritmo que leia o percentual de alunos reprovados na turma C, o percentual de aprovados na turma D, calcule e escreva:
+
+a) O número de alunos reprovados na turma C.
+b) O número de alunos reprovados na turma D.
+c) O percentual de alunos reprovados em relação ao total de alunos das duas turmas.
+
+[Exemplo de dados de entrada] 
+	10 (percentual de alunos reprovados na turma C)
+	85 (percentual de alunos aprovados na turma D)
+[Saída para os dados de entrada acima]
+	6 (quantidade de alunos reprovados na turma C)
+	3 (quantidade de alunos reprovados na turma D)
+	11.25 (percentual de alunos reprovados em relação ao total de alunos das duas turmas)
+

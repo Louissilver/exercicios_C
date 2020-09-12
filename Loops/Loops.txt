@@ -1,0 +1,132 @@
+1.	Escreva um algoritmo para escrever a palavra PROGRAMACAO 5 vezes.
+2.	Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes.
+3.	Faça um programa que leia 20 números quaisquer e conte quantos são negativos.
+4.	Faça um programa que apresente os quadrados dos números inteiros de 15 a 200.
+5.	Escreva um algoritmo que imprima na tela os 10 primeiros números inteiros maiores que 100.
+6.	Escreva um algoritmo que imprima os números ímpares existentes de entre 1(inclusive) e 9 (inclusive).
+7.	Faça um programa que leia o dia da semana (Domingo, Segunda, Terça, Quarta, Quinta, Sexta e Sabado). Esse dia deve ser um texto. Se for Sábado ou Domingo imprimir “Final de Semana”, senão imprimir “Dia Útil”. Dica: Utilizar as funções de comparação de string, no material da aula 5.
+8.	Escreva um algoritmo que imprima os números de 100 a 200 de 10 em 10.
+9.	Escreva um algoritmo que leia 50 valores e encontre o maior e o menor deles. Mostre o resultado.
+10.	Escreva um algoritmo para repetir a leitura de um número enquanto o valor fornecido for diferente de 0. Para cada número fornecido, imprimir se ele é NEGATIVO ou POSITIVO. Quando o número 0 for fornecido a repetição deve ser encerrada sem imprimir mensagem alguma.
+11.	Escreva um algoritmo para ler uma quantidade indeterminada de valores inteiros. Para cada valor fornecido escrever uma mensagem que indica se cada valor fornecido é PAR ou ÍMPAR. O algoritmo será encerrado imediatamente após a leitura de um valor NULO ou NEGATIVO.
+12.	Escreva um algoritmo que gere os números de 1000 a 1999 e escreva aqueles que, divididos por 11, dão resto igual a 5.
+13.	Programa para gerar e imprimir os números pares menores que 51 e sua soma. Os números devem ser impressos em ordem decrescente.
+14.	Programa para ler um número N qualquer e imprimir todos os inteiros positivos menores que N, bem como a soma e a média desses inteiros.
+15.	Escrever um algoritmo que leia uma quantidade desconhecida de números e conte quantos deles estão nos seguintes intervalos: [0.25], [26,50], [51,75] e [76,100]. A entrada de dados deve terminar quando for lido um número negativo.
+16.	Ler uma quantidade indeterminada de duplas de valores (2 valores de cada vez). Escrever para cada dupla uma mensagem que indique se ela foi informada em ordem crescente ou decrescente. A repetição será encerrada ao ser fornecido para os elementos da dupla valores iguais.
+17.	Escreva um algoritmo para repetir a leitura de uma senha até que ela seja válida. Para cada leitura da senha incorreta informada escrever a mensagem "SENHA INVÁLIDA". Quanto a senha for informada corretamente deve ser impressa a mensagem "ACESSO PERMITIDO" e o algoritmo encerrado. Considere que a senha correta é o valor 2807.
+18.	Escreva um algoritmo para ler as coordenadas (X,Y) de uma quantidade indeterminada de pontos no sistema cartesiano. Para cada ponto escrever o quadrante a que ele pertence. O algoritmo será encerrado quando o usuário informar um valor NULO para a coordenada X (nesta situação sem fazer a leitura da coordenada Y).
+
+Exemplo:
+	[Para os dados de entrada abaixo] [Deve ser gerada a seguinte saída]
+	  2   2                             primeiro quadrante
+ 	  3  -2                             quarto quadrante
+    	 -8  -1                             terceiro quadrante
+	 -7   1                             segundo quadrante
+	  0
+19.	Escreva um algoritmo que calcule a média dos números digitados pelo usuário, se eles forem pares. Termine a leitura se o usuário digitar zero (0).
+20.	Escreva um algoritmo que calcule a média aritmética das 3 notas dos alunos de uma classe. O algoritmo deverá ler, além das notas, o código do aluno e deverá ser encerrado quando o código for igual a zero.
+21.	Construir um algoritmo que calcule a média aritmética de vários valores inteiros positivos, lidos externamente. O final da leitura acontecerá quando for lido um valor negativo.
+22.	Faça um teste de mesa e informe o que será impresso pelo programa seguinte:
+   
+ programa Exercicio12_lista7	
+    var
+         I, J, K , Result: inteiro			Teste de Mesa                                Tela de saída         
+         			                  I       J       K      Result
+   Inicio
+        I  0
+        J  0
+        K  10
+        Enquanto (K > 5) Faça
+             Inicio
+              Se (K mod 2 = 0)  Então
+                    Inicio
+                    I  K + 1
+                    Result  25
+                    Fim
+                  Senão 
+                    Incio
+                       J  K - 2
+                       Result  150
+                    Fim
+		    Fim-se
+                 K  K - 1
+                 Escrever ( ‘I = ‘, I , ‘J = ‘, J)
+              Fim-Enquanto
+        Escrever ( ‘Resultado: ‘, Result)
+Fim
+
+23.	Faça um programa que leia uma série de 15 números e no final imprima o maior valor encontrado.
+24.	Programa para ler a nota de cada aluno de uma turma de 37 alunos e calcular a média da turma. Achar e imprimir, também, a maior e a menor nota da turma.     
+25.	O programa anterior só funciona para as turmas de 37 alunos. Reescreva-o de modo a permitir processar para turmas de qualquer quantidade de alunos.
+26.	Uma empresa deseja aumentar seus preços em 20%. Faça um algoritmo que leia o código e o preço de custo de cada produto e calcule o preço novo. Calcule também, a média dos preços com e sem aumento. Mostre o código e o preço novo de cada produto e, no final, as médias. A entrada de dados deve terminar quando for lido um código de produto negativo. (Use o comando Enquanto ... faça)
+27.	Ler 2 inteiros positivos A e B. Calcular e imprimir a soma de todos os números pares menores que A, mais a soma de todos os ímpares existentes entre A e B. 
+28.	Em uma eleição presidencial existem quatro candidatos. Os votos são informados através de códigos. Os dados utilizados para a contagem dos votos obedecem à seguinte codificação:
+1 = votos para candidato A
+2 = votos para candidato B
+3 = votos para candidato C
+4 = votos para candidatos D
+5 = votos nulo
+6 = votos em branco
+29.	Elabore um algoritmo que leia o código do candidato em um voto, o número de votantes naquela seção, e o número de abstenções. Calcule e escreva:
+	Total de votos para cada candidato;
+	Total de votos nulos;
+	Total de votos em branco;
+	O percentual de votos de cada candidato em relação ao total de votos;
+	O percentual de votos válidos para cada candidato;
+	O percentual de abstenções.
+
+Como finalizador do conjunto de votos, tem-se o valor 0.
+30.	Escrever um algoritmo que leia 5 valores para uma variável N e, para cada um deles, calcule e mostre a tabuada de 1 até N. Mostre a tabuada na forma:
+1    x   N  =  N
+2    x   N  =  2N
+3    x   N  =  3N
+N    x   N  =  N2
+31.	Faça um programa que leia uma série não determinada de dois valores. O primeiro valor é um código que significa:  (1) débito, (2) crédito e (0) fim. O segundo valor é uma quantia numérica real. O programa deve identificar o código e se for 1, somar a quantia em um acumulador de débitos; se for 2, somar a quantia em um acumulador de créditos; se for 0, encerrar o programa. Ao final, mostre o total de débitos e créditos e o saldo (saldo    créditos – débitos). (use o comando CASO).
+32.	Foi feita uma pesquisa entre os habitantes de uma região. Foram coletados os dados de idade, sexo (M/F) e salário. Faça um algoritmo que informe: (Use o comando CASO).
+
+	A média de salário do grupo; 
+	A maior e menor idade do grupo; 
+	A média da idade dos homens;
+	A quantidade de mulheres com salário até R$1000,00. 
+	Encerre a entrada de dados quando for digitada uma idade negativa. 
+33.	Em um laboratório usam-se dois tipos de cobaias: ratos e coelhos. O código para ratos é 1 e para coelhos, 2. Foram feitas 15 experiências, nas quais foram utilizados um dos tipos de cobaias. Faça um algoritmo que leia, para cada uma das experiências, o código da cobaia utilizada e a quantidade de cobaias. Deseja-se saber: o total de cobaias utilizadas, o total de ratos, o total de coelhos e o percentual de cada cobaia. (Use o comando CASO).
+34.	Escrever um algoritmo que leia um conjunto de 15 informações contendo, cada uma delas, a altura e o sexo de uma pessoa (código=1, masculino  código=2, feminino), calcule e mostre o seguinte:
+	A maior e a menor altura da turma;
+	A média da altura das mulheres;
+	A média da altura da turma.
+
+
+35.	Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer a média aritmética desses números. 
+36.	Fazer um algoritmos para receber um número decimal e o peso de cada número até que o usuário digite o número 0. Fazer a média ponderada desses números e pesos respectivos.
+37.	Escreva um algoritmo para imprimir os 50 primeiros número primos maior que 100. Obs.: Número primo é aquele divisível somente por 1 e ele mesmo.
+38.	Escreva um algoritmo que deve solicitar um número até que o usuário digite 0. Encontrar os 5 primeiros números pares a partir desse número digitado pelo usuário.
+39.	Escreva um algoritmo que receba um número e faça a tabuada desse número de 1 a 10. Parar o algoritmo quando o usuário digitar um número negativo.
+40.	Escreva um algoritmo que receba um número inteiro positivo. Fazer a multiplicação do número recebido iniciando de 1 até chegar ao número recebido. Parar o algoritmo quando o usuário digitar 0. 
+41.	Escrever um algoritmo que recebe um número inteiro e um número decimal. Fazer a divisão do número decimal pelo número inteiro até o número inteiro chegar a 1.
+42.	Escrever um algoritmo que a quantidade do produto comprado e o preço de cada produto. Imprimir o valor de total da compra. Parar quando a quantidade digitada for igual a 0.
+43.	Escrever um algoritmo que recebe a quantidade de créditos de uma disciplina e o valor de cada crédito. No final do algoritmo apresentar o valor de cada disciplina e o valor total do curso. Sair do algoritmo quando o usuário digitar 0.
+44.	Escrever um algoritmo que recebe o sexo (M-Masculino e F-Feminino) e a idade. Apresentar no final do algoritmo a média da idade dos homens e a média da idade das mulheres. Parar o algoritmo quando for digitado um sexo diferente de M ou F.
+45.	Faça um algoritmo que receba o ano de nascimento de 30 pessoas e o ano atual, calcule e mostre: a idade de cada pessoa; quantos anos cada pessoa terá em 2029.
+46.	Faça um algoritmo que leia 22 números inteiros positivos maiores que zero. A cada número informado calcule e mostre:
+a.	O número digitado;
+b.	A metade do número digitado;
+c.	O dobro do numero digitado;
+d.	O número digitado ao cubo.
+47.	Faça um algoritmo que leia o valor do salário de 35 funcionários e o valor do salário mínimo. Calcule e mostre a quantidade de salários mínimos que cada funcionário ganha.
+48.	Ler um número inteiro N (só aceitar valores positivos. Caso o N não seja positivo deverá ser lido um novo valor para o N) e escrever os divisores de N.
+49.	Ler um número inteiro N (só aceitar valores positivos. Caso o N não seja positivo deverá ser lido um novo valor para o N) e escrever se é ou não um número PRIMO.
+50.	Faça um algoritmo que receba o salário de 17 empregados e o seu percentual de aumento. Calcule e mostre o valor do aumento e o novo salário.
+51.	Faça um algoritmo que leia três notas de um número indeterminado de alunos. Calcule e mostre:
+a.	A média de cada aluno;
+b.	O total de alunos reprovados;
+c.	O total de alunos aprovados
+d.	A média da turma
+Obs.:	Considere média >= 7 aprovados e caso contrário reprovados. 
+Para calcular a média final descarte a nota mais baixa e duplique a nota mais alta.
+52.	Os funcionários de uma loja de motos recebem um salário fixo mais 4% de comissão sobre as vendas. Faça um algoritmo que leia o número de funcionários, o salário fixo e o valor das vendas de cada funcionário. Calcule e mostre o valor da comissão, o salário final de cada funcionário e o valor total da folha de pagamento da loja.
+53.	O custo ao consumidor de um carro novo é a soma do preço de fábrica com o percentual de lucro do distribuidor e dos impostos aplicados ao preço de fábrica. Faça um algoritmo que leia o código, o nome e o preço de fábrica de 8 veículos; o percentual de lucro do distribuidor e o percentual de impostos de cada veículo. Calcule e mostre:
+a.	O valor correspondente ao lucro do distribuidor;
+b.	O valor correspondente aos impostos;
+c.	O preço final de cada veículo.
+
